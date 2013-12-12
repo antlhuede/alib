@@ -50,6 +50,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Ant\Documents\GitHub\alib\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -79,6 +80,32 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\libs\test\source\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\alib\alib.vcxproj">
+      <Project>{67baf6e1-a9b6-47cc-b26c-a757d416c04e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\core\core.vcxproj">
+      <Project>{d2c537e2-fb0d-45ed-b65c-e15f61db984e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\debug\debug.vcxproj">
+      <Project>{37648db3-41b4-46d2-85c1-edd84de89557}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\factory\factory.vcxproj">
+      <Project>{86f61b91-5aff-4e90-9763-5a6314ba474b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\graphics\graphics.vcxproj">
+      <Project>{5855b89f-6532-45f6-9d1a-c9700a0e1d5d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\math\math.vcxproj">
+      <Project>{91358932-d24e-42e1-8a2f-b518671f927e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\meta\meta.vcxproj">
+      <Project>{fc5259f6-419f-46cf-823b-c55fbed9dc62}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\system\system.vcxproj">
+      <Project>{abec1b77-af88-40b6-b0b8-2f1fe6e79878}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

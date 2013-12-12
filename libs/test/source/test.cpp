@@ -1,31 +1,27 @@
-#if 0
-#include "alib.h"
+#include "alib/source/alib.h"
 
-#include "core.h"
-#include "debug.h"
-#include "factory.h"
-#include "graphics.h"
-#include "math.h"
-#include "meta.h"
-#include "system.h"
-
-
-#endif
-#include <iostream>
+#include "core/source/core.h"
+#include "debug/source/debug.h"
+#include "factory/source/factory.h"
+#include "graphics/source/graphics.h"
+#include "math/source/math.h"
+#include "meta/source/meta.h"
+#include "system/source/system.h"
 #include "test.h"
+
+#include <iostream>
 namespace alib 
 {
   namespace test 
   {
     void test_func() 
     {
-      //std::cout << "test test" << std::endl;
+      std::cout << "test test" << std::endl;
     }
   }
 }
 int main(void)
 {
-#if 0
   alib::test_func();
   alib::core::test_func();
   alib::debug::test_func();
@@ -34,7 +30,6 @@ int main(void)
   alib::math::test_func();
   alib::meta::test_func();
   alib::system::test_func();
-#endif
   alib::test::test_func();
   return 0;
 }
