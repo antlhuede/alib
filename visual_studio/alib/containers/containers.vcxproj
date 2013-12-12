@@ -10,6 +10,15 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libs\containers\containers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libs\containers\containers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\libs\containers\TODO.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{836CA28F-E16A-4AF7-BFA7-9195A3D5685C}</ProjectGuid>
     <RootNamespace>containers</RootNamespace>
@@ -40,10 +49,10 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>$(ProjectName)_d</TargetName>
-    <OutDir>..\..\..\libs\containers\bin\</OutDir>
+    <OutDir>..\..\..\bin\containers\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\..\..\libs\containers\bin\</OutDir>
+    <OutDir>..\..\..\bin\containers\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -69,12 +78,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\libs\containers\source\containers.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\libs\containers\source\containers.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

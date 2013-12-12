@@ -39,13 +39,13 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\..\..\libs\alib\bin\</OutDir>
+    <OutDir>..\..\..\bin\alib\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IntDir>$(Configuration)\</IntDir>
-    <OutDir>..\..\..\libs\alib\bin\</OutDir>
+    <OutDir>..\..\..\bin\alib\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -76,12 +76,6 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\libs\alib\source\alib.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\libs\alib\source\alib.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\core\core.vcxproj">
       <Project>{d2c537e2-fb0d-45ed-b65c-e15f61db984e}</Project>
     </ProjectReference>
@@ -103,6 +97,12 @@
     <ProjectReference Include="..\system\system.vcxproj">
       <Project>{abec1b77-af88-40b6-b0b8-2f1fe6e79878}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libs\alib\alib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libs\alib\alib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

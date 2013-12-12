@@ -11,13 +11,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\libs\meta\source\meta.h">
+    <ClCompile Include="..\..\..\libs\meta\meta.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libs\meta\meta.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\libs\meta\source\meta.cpp">
+    <None Include="..\..\..\libs\meta\TODO.md">
       <Filter>Source</Filter>
-    </ClCompile>
+    </None>
   </ItemGroup>
 </Project>

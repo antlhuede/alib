@@ -40,10 +40,10 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>$(ProjectName)_d</TargetName>
-    <OutDir>..\..\..\libs\graphics\bin\</OutDir>
+    <OutDir>..\..\..\bin\graphics\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\..\..\libs\graphics\bin\</OutDir>
+    <OutDir>..\..\..\bin\graphics\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -74,18 +74,21 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\libs\graphics\source\graphics.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\libs\graphics\source\graphics.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\core\core.vcxproj">
       <Project>{d2c537e2-fb0d-45ed-b65c-e15f61db984e}</Project>
     </ProjectReference>
     <ProjectReference Include="..\debug\debug.vcxproj">
       <Project>{37648db3-41b4-46d2-85c1-edd84de89557}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libs\graphics\graphics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libs\graphics\graphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\libs\graphics\TODO.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

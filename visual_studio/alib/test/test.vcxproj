@@ -40,10 +40,10 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>$(ProjectName)_d</TargetName>
-    <OutDir>..\..\..\libs\test\bin\</OutDir>
+    <OutDir>..\..\..\bin\test\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\..\..\libs\test\bin\</OutDir>
+    <OutDir>..\..\..\bin\test\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -76,12 +76,6 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\libs\test\source\test.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\libs\test\source\test.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\alib\alib.vcxproj">
       <Project>{67baf6e1-a9b6-47cc-b26c-a757d416c04e}</Project>
     </ProjectReference>
@@ -109,6 +103,15 @@
     <ProjectReference Include="..\system\system.vcxproj">
       <Project>{abec1b77-af88-40b6-b0b8-2f1fe6e79878}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libs\test\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libs\test\test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\libs\test\TODO.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
