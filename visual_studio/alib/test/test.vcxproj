@@ -85,6 +85,9 @@
     <ProjectReference Include="..\alib\alib.vcxproj">
       <Project>{67baf6e1-a9b6-47cc-b26c-a757d416c04e}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\containers\containers.vcxproj">
+      <Project>{836ca28f-e16a-4af7-bfa7-9195a3d5685c}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\core\core.vcxproj">
       <Project>{d2c537e2-fb0d-45ed-b65c-e15f61db984e}</Project>
     </ProjectReference>

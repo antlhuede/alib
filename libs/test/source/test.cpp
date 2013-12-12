@@ -2,6 +2,7 @@
 
 #include "core/source/core.h"
 #include "debug/source/debug.h"
+#include "containers/source/containers.h"
 #include "factory/source/factory.h"
 #include "graphics/source/graphics.h"
 #include "math/source/math.h"
@@ -25,6 +26,7 @@ int main(void)
   alib::test_func();
   alib::core::test_func();
   alib::debug::test_func();
+  alib::containers::test_func();
   alib::factory::test_func();
   alib::graphics::test_func();
   alib::math::test_func();

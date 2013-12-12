@@ -1,5 +1,5 @@
-﻿Build started 12/12/2013 5:42:00 AM.
-     1>Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\test\test.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/12/2013 3:26:06 PM.
+     1>Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\test\test.vcxproj" on node 4 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Ant\Documents\GitHub\alib\libs /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\libs\test\source\test.cpp
          test.cpp
@@ -13,9 +13,10 @@
          C:\Users\Ant\Documents\GitHub\alib\libs\meta\bin\meta_d.lib
          C:\Users\Ant\Documents\GitHub\alib\libs\system\bin\system_d.lib
          C:\Users\Ant\Documents\GitHub\alib\libs\alib\bin\alib_d.lib
+         C:\Users\Ant\Documents\GitHub\alib\libs\containers\bin\containers_d.lib
          test.vcxproj -> C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\test\..\..\..\libs\test\bin\test_d.exe
      1>Done Building Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\test\test.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.72
+Time Elapsed 00:00:00.57

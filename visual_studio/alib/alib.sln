@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alib", "alib\alib.vcxproj", "{67BAF6E1-A9B6-47CC-B26C-A757D416C04E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{836CA28F-E16A-4AF7-BFA7-9195A3D5685C} = {836CA28F-E16A-4AF7-BFA7-9195A3D5685C}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "meta", "meta\meta.vcxproj", "{FC5259F6-419F-46CF-823B-C55FBED9DC62}"
 EndProject
@@ -20,6 +23,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphics", "graphics\graphics.vcxproj", "{5855B89F-6532-45F6-9D1A-C9700A0E1D5D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{22E827C4-898A-4035-9E15-147EB29CDB63}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "containers", "containers\containers.vcxproj", "{836CA28F-E16A-4AF7-BFA7-9195A3D5685C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37648DB3-41B4-46D2-85C1-EDD84DE89557} = {37648DB3-41B4-46D2-85C1-EDD84DE89557}
+		{D2C537E2-FB0D-45ED-B65C-E15F61DB984E} = {D2C537E2-FB0D-45ED-B65C-E15F61DB984E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +72,10 @@ Global
 		{22E827C4-898A-4035-9E15-147EB29CDB63}.Debug|Win32.Build.0 = Debug|Win32
 		{22E827C4-898A-4035-9E15-147EB29CDB63}.Release|Win32.ActiveCfg = Release|Win32
 		{22E827C4-898A-4035-9E15-147EB29CDB63}.Release|Win32.Build.0 = Release|Win32
+		{836CA28F-E16A-4AF7-BFA7-9195A3D5685C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{836CA28F-E16A-4AF7-BFA7-9195A3D5685C}.Debug|Win32.Build.0 = Debug|Win32
+		{836CA28F-E16A-4AF7-BFA7-9195A3D5685C}.Release|Win32.ActiveCfg = Release|Win32
+		{836CA28F-E16A-4AF7-BFA7-9195A3D5685C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
