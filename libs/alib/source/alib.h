@@ -10,4 +10,6 @@ namespace math {}
 namespace meta {}
 namespace system {}
 namespace test {}
+
+void test_func();
 }
