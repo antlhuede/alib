@@ -1,7 +1,10 @@
 alib
 ====
 
+debug
+core
 meta
-application platform code
-object factory
+math
+system (application platform code)
+factory
 graphics
