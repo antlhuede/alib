@@ -3,8 +3,7 @@
 
 
 
-#visual studio
-*.opensdf
+
 
 #C and C++ Ignore Files from GitHub recommendations
 # Compiled Object files

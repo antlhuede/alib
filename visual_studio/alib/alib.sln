@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factory", "factory\factory.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphics", "graphics\graphics.vcxproj", "{5855B89F-6532-45F6-9D1A-C9700A0E1D5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{22E827C4-898A-4035-9E15-147EB29CDB63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +59,10 @@ Global
 		{5855B89F-6532-45F6-9D1A-C9700A0E1D5D}.Debug|Win32.Build.0 = Debug|Win32
 		{5855B89F-6532-45F6-9D1A-C9700A0E1D5D}.Release|Win32.ActiveCfg = Release|Win32
 		{5855B89F-6532-45F6-9D1A-C9700A0E1D5D}.Release|Win32.Build.0 = Release|Win32
+		{22E827C4-898A-4035-9E15-147EB29CDB63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22E827C4-898A-4035-9E15-147EB29CDB63}.Debug|Win32.Build.0 = Debug|Win32
+		{22E827C4-898A-4035-9E15-147EB29CDB63}.Release|Win32.ActiveCfg = Release|Win32
+		{22E827C4-898A-4035-9E15-147EB29CDB63}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
