@@ -6,17 +6,6 @@
 #visual studio
 *.opensdf
 
-#visual studio debug output directories
-alib/Debug/
-core/Debug/
-debug/Debug/
-factory/Debug/
-graphics/Debug/
-math/Debug/
-meta/Debug/
-system/Debug/
-test/Debug/
-
 #C and C++ Ignore Files from GitHub recommendations
 # Compiled Object files
 *.slo
