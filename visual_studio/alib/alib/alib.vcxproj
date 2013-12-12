@@ -74,6 +74,9 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\alib\source\alib.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\libs\alib\source\alib.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
