@@ -38,6 +38,9 @@
     <ClCompile Include="..\..\..\libs\test\test_system.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_alib.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\test\test.h">
@@ -65,6 +68,9 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\libs\test\test_system.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_alib.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

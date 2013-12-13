@@ -8,7 +8,8 @@ TF tests[] = { alib::test::core::run,
                alib::test::graphics::run,
                alib::test::math::run,
                alib::test::meta::run,
-               alib::test::system::run };
+               alib::test::system::run,
+               alib::test::alib::run };
 
 int main(void)
 {
@@ -26,6 +27,7 @@ namespace alib
     bool run()
     {
       std::cout << "running tests..." << std::endl;
+
       size num_tests = sizeof(tests) / sizeof(TF);
       for(size i = 0; i < num_tests; ++i)
       {

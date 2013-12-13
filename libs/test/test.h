@@ -8,7 +8,7 @@ namespace alib
   }
 }
 
-#include "alib\alib.h"
+#include "test\test_alib.h"
 #include "test\test_containers.h"
 #include "test\test_core.h"
 #include "test\test_debug.h"
