@@ -3,11 +3,11 @@
 
 namespace alib 
 {
-namespace debug 
-{
-  void test_func() 
+  namespace debug 
   {
-    std::cout << "test debug" << std::endl;
+    void test_func() 
+    {
+      std::cout << "test debug" << std::endl;
+    }
   }
-}
 }

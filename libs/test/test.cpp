@@ -1,5 +1,6 @@
 #include "test\test.h"
 
+
 using TF = decltype(&alib::test::run);
 TF tests[] = { alib::test::core::run,
                alib::test::debug::run,

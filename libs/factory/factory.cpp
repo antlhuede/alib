@@ -3,11 +3,11 @@
 
 namespace alib 
 {
-namespace factory 
-{
-  void test_func() 
+  namespace factory 
   {
-    std::cout << "test factory" << std::endl;
+    void test_func() 
+    {
+      std::cout << "test factory" << std::endl;
+    }
   }
-}
 }

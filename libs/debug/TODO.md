@@ -1,4 +1,5 @@
 alib.debug
 ====
 
-(still need to write this file)
+Debug log
+Debug console

@@ -20,4 +20,9 @@
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\libs\alib\TODO.md">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
 </Project>

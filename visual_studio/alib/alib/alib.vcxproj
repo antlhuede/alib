@@ -106,6 +106,9 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\alib\alib.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\libs\alib\TODO.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

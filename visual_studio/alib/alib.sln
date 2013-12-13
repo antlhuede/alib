@@ -26,7 +26,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "containers", "containers\containers.vcxproj", "{836CA28F-E16A-4AF7-BFA7-9195A3D5685C}"
 	ProjectSection(ProjectDependencies) = postProject
-		{37648DB3-41B4-46D2-85C1-EDD84DE89557} = {37648DB3-41B4-46D2-85C1-EDD84DE89557}
 		{D2C537E2-FB0D-45ED-B65C-E15F61DB984E} = {D2C537E2-FB0D-45ED-B65C-E15F61DB984E}
 	EndProjectSection
 EndProject
