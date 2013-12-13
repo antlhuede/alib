@@ -12,3 +12,5 @@ typedef unsigned __int64 uint64;
 
 typedef float float32;
 typedef double float64;
+
+typedef size_t size;

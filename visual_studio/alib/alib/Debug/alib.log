@@ -1,5 +1,5 @@
-﻿Build started 12/12/2013 6:23:01 PM.
-     1>Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\alib\alib.vcxproj" on node 3 (Build target(s)).
+﻿Build started 12/12/2013 6:57:33 PM.
+     1>Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\alib\alib.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Ant\Documents\GitHub\alib\libs\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\libs\alib\alib.cpp
          alib.cpp
@@ -10,4 +10,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.39
+Time Elapsed 00:00:00.90

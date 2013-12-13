@@ -1,38 +1,40 @@
-#include "alib/alib.h"
+#include "test\test.h"
 
-#include "core/core.h"
-#include "debug/debug.h"
-#include "containers/containers.h"
-#include "factory/factory.h"
-#include "graphics/graphics.h"
-#include "math/math.h"
-#include "meta/meta.h"
-#include "system/system.h"
-#include "test.h"
+using TF = decltype(&alib::test::run);
+TF tests[] = { alib::test::core::run,
+               alib::test::debug::run,
+               alib::test::containers::run,
+               alib::test::factory::run,
+               alib::test::graphics::run,
+               alib::test::math::run,
+               alib::test::meta::run,
+               alib::test::system::run };
 
-#include <iostream>
-namespace alib 
-{
-  namespace test 
-  {
-    void test_func() 
-    {
-      std::cout << "test test" << std::endl;
-    }
-  }
-}
 int main(void)
 {
-  alib::test_func();
-  alib::core::test_func();
-  alib::debug::test_func();
-  alib::containers::test_func();
-  alib::factory::test_func();
-  alib::graphics::test_func();
-  alib::math::test_func();
-  alib::meta::test_func();
-  alib::system::test_func();
-  alib::test::test_func();
-  alib::containers::test_func();
+  if(alib::test::run() == false)
+    return -1;
   return 0;
+}
+
+
+#include <iostream>
+namespace alib
+{
+  namespace test
+  {
+    bool run()
+    {
+      std::cout << "running tests..." << std::endl;
+      size num_tests = sizeof(tests) / sizeof(TF);
+      for(size i = 0; i < num_tests; ++i)
+      {
+        if(tests[i]() == false)
+        {
+          std::cout << "test[" << i << "] failed." << std::endl;
+          return false;
+        }
+      }
+    }
+  }
 }

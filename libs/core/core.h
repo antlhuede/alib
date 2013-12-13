@@ -7,3 +7,5 @@ namespace alib
     void test_func();
   }
 }
+
+#include "core\types.h"

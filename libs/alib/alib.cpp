@@ -1,4 +1,4 @@
-#include "alib.h"
+#include "alib\alib.h"
 #include <iostream>
 
 namespace alib 
