@@ -5,9 +5,9 @@ namespace alib
   namespace containers
   {
     template <typename H>
-    string<H>::string(const byte* str)
+    string<H>::string(const byte* str) 
+      : hash(HashAlgorithm::generate_hash(str))
     {
-      m_hash = HashAlgorithm::generate_hash(str);
     }
   }
 }

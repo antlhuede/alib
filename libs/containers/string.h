@@ -11,9 +11,7 @@ namespace alib
       public:
         using HashAlgorithm = H;
         string(const byte* str);
-        uint32 getHash() const { return m_hash; }
-      private:
-        uint32 m_hash;
+        const typename HashAlgorithm::hashtype hash;
     };
 
     typedef string<alib::core::hash_algorithms::FNV> string_fnv;

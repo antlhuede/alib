@@ -28,9 +28,9 @@ namespace containers
       string_sum sum(strings[i]);
       string_x65599 x65599(strings[i]);
       std::cout << strings[i] << ":" << std::endl;
-      std::cout << "  FNV: " << fnv.getHash() << std::endl;
-      std::cout << "  sum: " << sum.getHash() << std::endl;
-      std::cout << "  x65599: " << x65599.getHash() << std::endl;
+      std::cout << "  FNV: " << fnv.hash << std::endl;
+      std::cout << "  sum: " << sum.hash << std::endl;
+      std::cout << "  x65599: " << x65599.hash << std::endl;
       std::cout << std::endl;
     }
 

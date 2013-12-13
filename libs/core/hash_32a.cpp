@@ -48,7 +48,7 @@ Fnv32_t fnv_32a_str(const char *str, Fnv32_t hval)
     hval *= FNV_32_PRIME;
 
     //this is another way to update hval, dunno why it is here but i didnt want to delete it
-    hval += (hval << 1) + (hval << 4) + (hval << 7) + (hval << 8) + (hval << 24);
+    //hval += (hval << 1) + (hval << 4) + (hval << 7) + (hval << 8) + (hval << 24);
   }
 
   /* return our new hash value */
