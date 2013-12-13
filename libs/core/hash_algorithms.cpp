@@ -1,4 +1,5 @@
 #include "hash_algorithms.h"
+#include "fnv.h"
 #include <iostream>
 
 namespace alib 
@@ -19,7 +20,7 @@ namespace hash_algorithms
 
   stringhash FNV::generate_hash(const byte* str)
   {
-    return 0;
+    return fnv_32a_str(str);
   }
 
   stringhash sum::generate_hash(const byte* str)

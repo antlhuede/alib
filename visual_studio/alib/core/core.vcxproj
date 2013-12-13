@@ -12,10 +12,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\libs\core\core.cpp" />
+    <ClCompile Include="..\..\..\libs\core\hash_32a.cpp" />
     <ClCompile Include="..\..\..\libs\core\hash_algorithms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\core\core.h" />
+    <ClInclude Include="..\..\..\libs\core\fnv.h" />
     <ClInclude Include="..\..\..\libs\core\hash_algorithms.h" />
     <ClInclude Include="..\..\..\libs\core\types.h" />
   </ItemGroup>
