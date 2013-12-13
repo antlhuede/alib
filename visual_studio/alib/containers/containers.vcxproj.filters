@@ -23,9 +23,6 @@
     <ClCompile Include="..\..\..\libs\containers\static_array.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\containers\string.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\containers\containers.h">
@@ -41,6 +38,9 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\libs\containers\string.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\containers\string.hpp">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

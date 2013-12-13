@@ -3,11 +3,11 @@
 
 namespace alib 
 {
-namespace core 
-{
-  void test_func() 
+  namespace core 
   {
-    std::cout << "test core" << std::endl;
+    void test_func() 
+    {
+      std::cout << "test core" << std::endl;
+    }
   }
-}
 }

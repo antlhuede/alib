@@ -2,8 +2,8 @@
 
 namespace alib
 {
-namespace math
-{
-  void test_func();
-}
+  namespace math
+  {
+    void test_func();
+  }
 }

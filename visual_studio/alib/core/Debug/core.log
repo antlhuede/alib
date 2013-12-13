@@ -1,13 +1,16 @@
-﻿Build started 12/12/2013 6:57:32 PM.
+﻿Build started 12/12/2013 10:58:15 PM.
      1>Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\core\core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Ant\Documents\GitHub\alib\libs\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\libs\core\core.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Ant\Documents\GitHub\alib\libs\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\libs\core\core.cpp ..\..\..\libs\core\hash_algorithms.cpp
+         hash_algorithms.cpp
          core.cpp
+         Generating Code...
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\..\bin\core\core_d.lib" /NOLOGO Debug\core.obj
+         Debug\hash_algorithms.obj
          core.vcxproj -> C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\core\..\..\..\bin\core\core_d.lib
      1>Done Building Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\core\core.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.70
+Time Elapsed 00:00:00.66

@@ -9,3 +9,4 @@ namespace alib
 }
 
 #include "core\types.h"
+#include "core\hash_algorithms.h"

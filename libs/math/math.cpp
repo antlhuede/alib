@@ -3,11 +3,11 @@
 
 namespace alib 
 {
-namespace math 
-{
-  void test_func() 
+  namespace math 
   {
-    std::cout << "test math" << std::endl;
+    void test_func() 
+    {
+      std::cout << "test math" << std::endl;
+    }
   }
-}
 }

@@ -15,7 +15,9 @@
     <ClCompile Include="..\..\..\libs\containers\dynamic_array.cpp" />
     <ClCompile Include="..\..\..\libs\containers\hash_map.cpp" />
     <ClCompile Include="..\..\..\libs\containers\static_array.cpp" />
-    <ClCompile Include="..\..\..\libs\containers\string.cpp" />
+    <ClInclude Include="..\..\..\libs\containers\string.hpp">
+      <FileType>CppCode</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\containers\containers.h" />

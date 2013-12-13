@@ -14,3 +14,16 @@ typedef float float32;
 typedef double float64;
 
 typedef size_t size;
+
+typedef char byte;
+typedef unsigned char ubyte;
+
+namespace alib { 
+  namespace core { namespace hash_algorithms { class FNV; } }
+  namespace containers { template <class T> class string; }
+}
+
+using default_hash_algorithm = alib::core::hash_algorithms::FNV;
+using string = alib::containers::string<default_hash_algorithm>;
+
+typedef uint32 stringhash;

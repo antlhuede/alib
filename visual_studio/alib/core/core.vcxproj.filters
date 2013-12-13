@@ -14,12 +14,18 @@
     <ClCompile Include="..\..\..\libs\core\core.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\libs\core\hash_algorithms.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\core\core.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\libs\core\types.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\core\hash_algorithms.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
