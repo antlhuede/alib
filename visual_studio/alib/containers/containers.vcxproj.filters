@@ -14,9 +14,33 @@
     <ClCompile Include="..\..\..\libs\containers\containers.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\libs\containers\dynamic_array.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\containers\hash_map.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\containers\static_array.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\containers\string.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\containers\containers.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\containers\dynamic_array.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\containers\hash_map.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\containers\static_array.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\containers\string.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

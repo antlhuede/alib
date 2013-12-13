@@ -12,9 +12,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\libs\containers\containers.cpp" />
+    <ClCompile Include="..\..\..\libs\containers\dynamic_array.cpp" />
+    <ClCompile Include="..\..\..\libs\containers\hash_map.cpp" />
+    <ClCompile Include="..\..\..\libs\containers\static_array.cpp" />
+    <ClCompile Include="..\..\..\libs\containers\string.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\containers\containers.h" />
+    <ClInclude Include="..\..\..\libs\containers\dynamic_array.h" />
+    <ClInclude Include="..\..\..\libs\containers\hash_map.h" />
+    <ClInclude Include="..\..\..\libs\containers\static_array.h" />
+    <ClInclude Include="..\..\..\libs\containers\string.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\libs\containers\TODO.md" />
@@ -59,6 +67,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Ant\Documents\GitHub\alib\libs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -71,6 +80,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Ant\Documents\GitHub\alib\libs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

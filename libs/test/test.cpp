@@ -33,5 +33,6 @@ int main(void)
   alib::meta::test_func();
   alib::system::test_func();
   alib::test::test_func();
+  alib::containers::test_func();
   return 0;
 }

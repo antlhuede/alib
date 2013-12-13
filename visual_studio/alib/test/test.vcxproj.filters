@@ -14,9 +14,57 @@
     <ClCompile Include="..\..\..\libs\test\test.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_containers.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_debug.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_factory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_graphics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_math.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_meta.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libs\test\test_system.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\libs\test\test.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_containers.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_core.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_debug.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_factory.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_graphics.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_math.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_meta.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\test\test_system.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

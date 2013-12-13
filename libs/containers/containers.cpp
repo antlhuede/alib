@@ -3,11 +3,11 @@
 
 namespace alib 
 {
-namespace containers 
-{
-  void test_func() 
+  namespace containers 
   {
-    std::cout << "test containers" << std::endl;
+    void test_func() 
+    {
+      std::cout << "test containers" << std::endl;
+    }
   }
-}
 }
