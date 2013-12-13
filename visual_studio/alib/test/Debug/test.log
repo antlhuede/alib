@@ -1,7 +1,27 @@
-﻿Build started 12/12/2013 3:52:07 PM.
-     1>Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\test\test.vcxproj" on node 2 (Build target(s)).
-     1>Link:
+﻿Build started 12/12/2013 6:23:02 PM.
+     1>Project "C:\Users\Ant\Documents\GitHub\alib\visual_studio\alib\test\test.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Ant\Documents\GitHub\alib\libs\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\libs\test\test.cpp ..\..\..\libs\test\test_containers.cpp ..\..\..\libs\test\test_core.cpp ..\..\..\libs\test\test_debug.cpp ..\..\..\libs\test\test_factory.cpp ..\..\..\libs\test\test_graphics.cpp ..\..\..\libs\test\test_math.cpp ..\..\..\libs\test\test_meta.cpp ..\..\..\libs\test\test_system.cpp
+         test_system.cpp
+         test_meta.cpp
+         test_math.cpp
+         test_graphics.cpp
+         test_factory.cpp
+         test_debug.cpp
+         test_core.cpp
+         test_containers.cpp
+         test.cpp
+         Generating Code...
+       Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\test\test_d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\bin\test\test_d.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin\test\test_d.lib" /MACHINE:X86 Debug\test.obj
+         Debug\test_containers.obj
+         Debug\test_core.obj
+         Debug\test_debug.obj
+         Debug\test_factory.obj
+         Debug\test_graphics.obj
+         Debug\test_math.obj
+         Debug\test_meta.obj
+         Debug\test_system.obj
          C:\Users\Ant\Documents\GitHub\alib\bin\core\core_d.lib
          C:\Users\Ant\Documents\GitHub\alib\bin\debug\debug_d.lib
          C:\Users\Ant\Documents\GitHub\alib\bin\factory\factory_d.lib
@@ -16,4 +36,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.28
+Time Elapsed 00:00:00.65
