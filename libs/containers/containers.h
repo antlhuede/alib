@@ -4,6 +4,6 @@ namespace alib
 {
 namespace containers
 {
-  void test_func();
+  void test_func(); 
 }
 }
